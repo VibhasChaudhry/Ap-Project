@@ -1,6 +1,6 @@
-import mysql.connector #Importing the python-mysql connector
+import mysql.connector #Importing the python-mysql connector.
 
-#Establishing connection between mysql(AWS RDS) and pyhon using the connector
+#Establishing connection between mysql(AWS RDS) and pyhon using the connector.
 con = mysql.connector.connect (
     host="project.ccbr0xymap3c.ap-south-1.rds.amazonaws.com", #Host-Name(AWS RDS)
     user="admin",
